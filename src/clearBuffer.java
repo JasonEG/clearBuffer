@@ -7,7 +7,7 @@ public class clearBuffer {
         int favNum = 0;
         int birthMonth =0;
         String name ="";
-        String newLine = "";
+
         boolean done = false;
         String trash = "";
 
@@ -15,7 +15,7 @@ do {
     System.out.println("Please enter your favorite integer number: ");
     if (in.hasNextInt()) {
     favNum = in.nextInt();
-    newLine = in.nextLine();
+    in.nextLine();
     done = true;
 }
     else {
@@ -32,7 +32,7 @@ do {
     {
 
         birthMonth = in.nextInt();
-        newLine = in.nextLine();
+        in.nextLine();
         done = true;
     }
     else {
