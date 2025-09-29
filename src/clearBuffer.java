@@ -65,6 +65,7 @@ System.out.println("Your birth number is: " + birthMonth);
 System.out.println("Your name is: " + name);
 
 System.out.println("Thanks!");
+System.out.println("I MADE A CHANGE TO TEST GITHUB");
 
         }
     }
