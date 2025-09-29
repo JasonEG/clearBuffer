@@ -66,6 +66,7 @@ System.out.println("Your name is: " + name);
 
 System.out.println("Thanks!");
 System.out.println("I MADE A CHANGE TO TEST GITHUB");
+System.out.println("Another change to test the system.");
 
         }
     }
